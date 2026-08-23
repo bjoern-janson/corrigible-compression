@@ -108,13 +108,51 @@ NEW FINITE-INDEX PRINCIPLE    = NOT CLAIMED
 NEW ASSAY                     = NONE
 ```
 
-The live mathematical gate is now deliberately payoff-based:
+The mathematical promotion gate remains deliberately payoff-based:
 
 > **Find a natural repair-synthesis family where contextual quotienting is exact, efficiently computable, compositionally closed, and changes the achievable `(m,ell)` frontier.**
 
-Anything failing one of those conditions remains **interesting formalism / no demonstrated payoff**.
+Anything failing one of those conditions remains **interesting formalism / no demonstrated intrinsic-frontier payoff**.
 
-See [`docs/CORRECTION_COMPLEXITY.md`](docs/CORRECTION_COMPLEXITY.md) for the reduction/correction-complexity freeze, [`docs/RFP_STATIC_ONLINE.md`](docs/RFP_STATIC_ONLINE.md) for the static/online RFP continuation, [`docs/RANGE_BICRITERIA.md`](docs/RANGE_BICRITERIA.md) for the range-constrained synthesis frontier, and [`docs/CONTEXTUAL_QUOTIENT.md`](docs/CONTEXTUAL_QUOTIENT.md) for the current mathematical stopping point. The older [`docs/PROGRAM_MAP.md`](docs/PROGRAM_MAP.md) remains the prior program checkpoint and is not retroactively rewritten.
+A targeted payoff hunt against scalable supervisory control of repeated-agent discrete-event systems (DES) found a real but narrower result:
+
+```text
+NATURAL DES PAYOFF FAMILY             = FOUND / AUDITED
+SYMMETRY / TEMPLATE QUOTIENT          = YES
+AGENT-COUNT-INDEPENDENT SYNTHESIS     = YES UNDER STATED CONDITIONS
+COMPACT CONTROL-EQUIVALENT OUTPUT     = YES / LITERATURE-DEMONSTRATED
+STRICT INTRINSIC LAMBDA(m) PAYOFF     = NOT EARNED
+CONTEXTUAL-QUOTIENT THEORY PROMOTED   = NO
+DES LANE                               = PARKED
+BL-003                                 = UNOPENED
+NEW ASSAY                              = NONE
+```
+
+The decisive reduction is:
+
+```text
+A_template subseteq A_raw
+=> Lambda_raw(m) <= Lambda_template(m).
+```
+
+A compact supervisor discovered through template/relabeling is already a feasible point in the unrestricted raw supervisor class. The template method can therefore make a good controller dramatically easier to synthesize without proving that the unrestricted minimum implementation size is smaller. The DES audit reinforces, rather than changes, the permanent firewall:
+
+```text
+valid implementation exists
+!= minimum implementation size
+!= difficulty of finding / synthesizing the implementation.
+```
+
+For DES artifact translation, runtime behavior count must also remain separate from supervisor state count:
+
+```text
+m(S) = number of distinct future-relevant control signatures
+!= |Q_S|.
+```
+
+Produced `SUP`, `SSUP`, or local-controller `(m,ell)` measurements are artifact measurements, not intrinsic `Lambda` minima unless matching lower bounds or an explicitly restricted architecture class justify that interpretation.
+
+See [`docs/CORRECTION_COMPLEXITY.md`](docs/CORRECTION_COMPLEXITY.md) for the reduction/correction-complexity freeze, [`docs/RFP_STATIC_ONLINE.md`](docs/RFP_STATIC_ONLINE.md) for the static/online RFP continuation, [`docs/RANGE_BICRITERIA.md`](docs/RANGE_BICRITERIA.md) for the range-constrained synthesis frontier, [`docs/CONTEXTUAL_QUOTIENT.md`](docs/CONTEXTUAL_QUOTIENT.md) for the mathematical stopping point, and [`docs/DES_PAYOFF_AUDIT.md`](docs/DES_PAYOFF_AUDIT.md) for the external DES payoff translation and negative intrinsic-frontier result. The older [`docs/PROGRAM_MAP.md`](docs/PROGRAM_MAP.md) remains the prior program checkpoint and is not retroactively rewritten.
 
 The empirical broad-learning progression remains:
 
@@ -210,6 +248,19 @@ completion class).
 ```
 
 A partial architecture may be safely forgotten only when all completion-relevant semantics factor through the retained contextual class. A small quotient is algorithmically useful only when class recognition and composition are effective; optimal pruning additionally requires completion-stable cost dominance.
+
+The DES payoff audit adds one external reduction without reopening the mathematical branch:
+
+```text
+template quotient
+-> easier scalable synthesis
+-> compact control-equivalent artifact
+
+but
+
+easier synthesis
+!= smaller unrestricted intrinsic Lambda(m).
+```
 
 The standing impossibility boundary remains:
 
@@ -402,7 +453,8 @@ See the full evidence and non-claim ledger before extending the theory.
 - [`docs/CORRECTION_COMPLEXITY.md`](docs/CORRECTION_COMPLEXITY.md) — conceptual reduction/correction-complexity freeze: strong adaptive-control reduction gate, bounded reopenability pressure test, correction-cover complexity, formal candidate `kappa_gen^{H,rho}`, CRCB hypothesis, and meta-authority boundary.
 - [`docs/RFP_STATIC_ONLINE.md`](docs/RFP_STATIC_ONLINE.md) — mathematical continuation: repair-factorization profile, architecture-constrained `nu_{epsilon,H}(ell)`, static/online frontier, evidence quotient, repair-cover hypergraph, conflict-graph lower bound, and conditional composition properties.
 - [`docs/RANGE_BICRITERIA.md`](docs/RANGE_BICRITERIA.md) — range-constrained mathematical freeze: evidence-quotient reduction, `Lambda^O_{epsilon,H}(m)` implementation spectrum, explicit/succinct decision-complexity reductions, permanent feasibility/size/search separation, and the surviving `(m,ell)` bicriteria theorem program.
-- [`docs/CONTEXTUAL_QUOTIENT.md`](docs/CONTEXTUAL_QUOTIENT.md) — current mathematical stopping point: contextual equivalence, minimum-cardinality exact behavioral abstraction, sound/compact/effective/optimal separation, quotient-compression witnesses, cost dominance, and the payoff gate for any future continuation.
+- [`docs/CONTEXTUAL_QUOTIENT.md`](docs/CONTEXTUAL_QUOTIENT.md) — mathematical stopping point: contextual equivalence, minimum-cardinality exact behavioral abstraction, sound/compact/effective/optimal separation, quotient-compression witnesses, cost dominance, and the payoff gate for any future continuation.
+- [`docs/DES_PAYOFF_AUDIT.md`](docs/DES_PAYOFF_AUDIT.md) — targeted external payoff translation: repeated-agent DES template/relabeling, produced-artifact `(m,ell)` discipline, real synthesis/construction payoff, and the negative result that nested template architectures do not establish a lower unrestricted intrinsic `Lambda(m)` frontier.
 - [`docs/CONSTITUTION.md`](docs/CONSTITUTION.md) — frozen meta-hypothesis, scope, anti-collapse constraints, protected freshness, recursive form.
 - [`docs/EVIDENCE.md`](docs/EVIDENCE.md) — retrospective result map, BL/BL×CC evidence, real-XM matched-K result, claim ceilings, and provenance pointers.
 - [`docs/CORRIGIBLE_MEMORY.md`](docs/CORRIGIBLE_MEMORY.md) — provenance as a bounded compression problem; minimal corrigible-memory schema and reopenability rules.
@@ -424,6 +476,9 @@ freeze
 -> bicriteria frontier
 -> contextual quotient reduction
 -> PARKED UNTIL DEMONSTRATED PAYOFF
+-> targeted DES payoff hunt
+-> REAL SYNTHESIS PAYOFF / STRICT RFP PAYOFF NOT EARNED
+-> PARKED
 ```
 
 Contradictions should shrink or relocate claims, not be absorbed by unconstrained reinterpretation.
