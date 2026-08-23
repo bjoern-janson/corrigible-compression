@@ -54,11 +54,11 @@ BL-003                                   = UNOPENED
 NEW ASSAY                                = NONE
 ```
 
-The current mathematical continuation sharpens the repair-factorization profile into a static/online frontier:
+The static/online mathematical continuation sharpened the repair-factorization profile into an architecture-constrained frontier:
 
 ```text
 RFP                         = COUPLED PROFILE CANDIDATE
-NU_{eps,H}(ell)             = CENTRAL STATIC/ONLINE FRONTIER CANDIDATE
+NU_{eps,H}(ell)             = STATIC/ONLINE FRONTIER CANDIDATE
 B*_{eps,H}(ell)             = ceil(log2 NU_{eps,H}(ell))
 PAIRWISE OVERLAP GRAPH      = LOWER-BOUND OBJECT, NOT GENERALLY EXACT
 REPAIR-COVER HYPERGRAPH     = EXACT UNCONSTRAINED COMBINATORIAL OBJECT
@@ -66,7 +66,28 @@ NEW FOUNDATIONAL THEORY     = NOT ESTABLISHED
 NEW ASSAY                   = NONE
 ```
 
-See [`docs/CORRECTION_COMPLEXITY.md`](docs/CORRECTION_COMPLEXITY.md) for the reduction/correction-complexity freeze and [`docs/RFP_STATIC_ONLINE.md`](docs/RFP_STATIC_ONLINE.md) for the current mathematical continuation. The older [`docs/PROGRAM_MAP.md`](docs/PROGRAM_MAP.md) remains the prior program checkpoint and is not retroactively rewritten.
+The latest mathematical continuation reduces the remaining architecture question to a range-constrained synthesis bicriteria frontier:
+
+```text
+TAU^O_{eps,H}                 = EXACT EVIDENCE-QUOTIENT COVER IN FINITE DETERMINISTIC SETTING
+LAMBDA^O_{eps,H}(m)           = MINIMUM IMPLEMENTATION COMPLEXITY AT RANGE BUDGET m
+NU_{eps,H}(ell)               = THRESHOLD INVERSE OF LAMBDA(m)
+EXPLICIT RANGE-BOUNDED SYNTH  = NP-COMPLETE UNDER STATED ENCODING
+SUCCINCT RANGE-BOUNDED SYNTH  = SIGMA_2^P-COMPLETE UNDER STATED ENCODING
+RANGE/IMPLEMENTATION FRONTIER = SURVIVING RESEARCH SEAM
+RFP AS NEW PRIMITIVE          = NOT ESTABLISHED
+NEW ASSAY                     = NONE
+```
+
+Permanent mathematical firewall:
+
+```text
+semantic feasibility
+!= minimum implementation size
+!= difficulty of finding / synthesizing the implementation
+```
+
+See [`docs/CORRECTION_COMPLEXITY.md`](docs/CORRECTION_COMPLEXITY.md) for the reduction/correction-complexity freeze, [`docs/RFP_STATIC_ONLINE.md`](docs/RFP_STATIC_ONLINE.md) for the static/online RFP continuation, and [`docs/RANGE_BICRITERIA.md`](docs/RANGE_BICRITERIA.md) for the current range-constrained synthesis frontier. The older [`docs/PROGRAM_MAP.md`](docs/PROGRAM_MAP.md) remains the prior program checkpoint and is not retroactively rewritten.
 
 The empirical broad-learning progression remains:
 
@@ -99,7 +120,7 @@ Open hypothesis:
 
 > **Some structured failure classes may admit substantial compression of recovery machinery: a small reusable correction basis may support many held-out repairs more cheaply than directly preserving failure-specific repairs.**
 
-The mathematical continuation now distinguishes static repair structure from online discrimination. For fixed evidence interface `O`, horizon `H`, recovery tolerance `epsilon`, and static architecture budget `ell`:
+The mathematical continuation distinguishes static repair structure from online discrimination. For fixed evidence interface `O`, horizon `H`, recovery tolerance `epsilon`, and static architecture budget `ell`:
 
 ```text
 nu_{epsilon,H}(ell)
@@ -128,6 +149,21 @@ aliased incompatible failures
 ```
 
 The pairwise repair-conflict/overlap graph is useful for lower bounds, but it is not exact in general because higher-order incompatibility can survive pairwise overlap. The exact unconstrained combinatorial object is a repair-policy coverage hypergraph over observation fibers; the budgeted object additionally requires the useful policy cover to be jointly realizable within static cost `ell`.
+
+The newest reduction sharpens the architecture layer further:
+
+```text
+tau^O_{epsilon,H}
+= minimum evidence-routable repair behaviors
+
+Lambda^O_{epsilon,H}(m)
+= min implementation complexity among valid selectors with range <= m
+
+nu_{epsilon,H}(ell)
+= min { m : Lambda^O_{epsilon,H}(m) <= ell }.
+```
+
+For a fixed valid selector, joint routing/repair implementation reduces to ordinary resource-bounded program/circuit complexity. Unconstrained minimization over relation-compatible selectors lies in established Boolean relation / functional synthesis territory. The surviving specialization is the global coupling between selector range and minimum joint implementation complexity; its novelty is unestablished.
 
 The standing impossibility boundary remains:
 
@@ -318,7 +354,8 @@ See the full evidence and non-claim ledger before extending the theory.
 
 - [`docs/PROGRAM_MAP.md`](docs/PROGRAM_MAP.md) — prior frozen program-level checkpoint: completed empirical ladder, research layers, blindness taxonomy, load-bearing boundaries, and deliberately unopened questions.
 - [`docs/CORRECTION_COMPLEXITY.md`](docs/CORRECTION_COMPLEXITY.md) — conceptual reduction/correction-complexity freeze: strong adaptive-control reduction gate, bounded reopenability pressure test, correction-cover complexity, formal candidate `kappa_gen^{H,rho}`, CRCB hypothesis, and meta-authority boundary.
-- [`docs/RFP_STATIC_ONLINE.md`](docs/RFP_STATIC_ONLINE.md) — current mathematical continuation: repair-factorization profile, architecture-constrained `nu_{epsilon,H}(ell)`, static/online frontier, evidence quotient, repair-cover hypergraph, conflict-graph lower bound, and conditional composition properties.
+- [`docs/RFP_STATIC_ONLINE.md`](docs/RFP_STATIC_ONLINE.md) — mathematical continuation: repair-factorization profile, architecture-constrained `nu_{epsilon,H}(ell)`, static/online frontier, evidence quotient, repair-cover hypergraph, conflict-graph lower bound, and conditional composition properties.
+- [`docs/RANGE_BICRITERIA.md`](docs/RANGE_BICRITERIA.md) — current mathematical freeze: evidence-quotient reduction, `Lambda^O_{epsilon,H}(m)` implementation spectrum, explicit/succinct decision-complexity reductions, permanent feasibility/size/search separation, and the surviving `(m,ell)` bicriteria theorem program.
 - [`docs/CONSTITUTION.md`](docs/CONSTITUTION.md) — frozen meta-hypothesis, scope, anti-collapse constraints, protected freshness, recursive form.
 - [`docs/EVIDENCE.md`](docs/EVIDENCE.md) — retrospective result map, BL/BL×CC evidence, real-XM matched-K result, claim ceilings, and provenance pointers.
 - [`docs/CORRIGIBLE_MEMORY.md`](docs/CORRIGIBLE_MEMORY.md) — provenance as a bounded compression problem; minimal corrigible-memory schema and reopenability rules.
@@ -335,7 +372,9 @@ freeze
 -> program-level compression
 -> reduction attempt
 -> correction-complexity formalization
--> mathematical pressure test
+-> static/online mathematical pressure test
+-> relation/synthesis reduction
+-> bicriteria frontier
 -> deliberate next-question opening
 ```
 
