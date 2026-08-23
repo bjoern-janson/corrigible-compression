@@ -28,6 +28,56 @@ Recursive research/memory seed:
 
 All claims are relative to **bounded resources, a stated consequence class, a stated horizon, and a stated threat model**.
 
+## Program checkpoint
+
+The current program-level research map is frozen separately from the completed experimental branch:
+
+```text
+PROGRAM CHECKPOINT 001 = FROZEN RESEARCH MAP
+BL×CC-001              = PARKED — POSITIVE / AUDITED
+BL-003                  = QUESTION EARNED — UNOPENED / UNDESIGNED
+ACQUISITION×RETENTION  = QUESTION EARNED — NO ASSAY
+CC                      = META-HYPOTHESIS
+```
+
+The empirical broad-learning progression is:
+
+```text
+BL-001: use supplied relational structure
+-> BL-002: adaptively survey supplied relational structure
+-> BL×CC-001: preserve corrective developmental reach while allocating
+```
+
+Program-level compression:
+
+```text
+relational structure
+-> adaptive surveying
+-> correctable allocation
+```
+
+The next major unopened scientific question is deliberately not designed here:
+
+> **Can the learner discover that its available relational distinctions are themselves inadequate?**
+
+The checkpoint also preserves the distinct failure depths:
+
+```text
+policy blindness
+!= retention blindness
+!= architectural blindness
+```
+
+and the asymmetric evidence state:
+
+```text
+efficient allocation            = empirically supported in frozen synthetic BL assays
+corrective reach for allocation = empirically supported in frozen synthetic BL×CC-001
+representational extensibility  = open question; no BL-003 assay
+```
+
+See [`docs/PROGRAM_MAP.md`](docs/PROGRAM_MAP.md) before opening another experimental layer.
+
 ## Load-bearing constraints
 
 The synthesis is allowed to unify **failure geometry**, not mechanism.
@@ -202,6 +252,7 @@ See the full evidence and non-claim ledger before extending the theory.
 
 ## Repository map
 
+- [`docs/PROGRAM_MAP.md`](docs/PROGRAM_MAP.md) — frozen program-level checkpoint: completed empirical ladder, three research layers, blindness taxonomy, load-bearing boundaries, and deliberately unopened questions.
 - [`docs/CONSTITUTION.md`](docs/CONSTITUTION.md) — frozen meta-hypothesis, scope, anti-collapse constraints, protected freshness, recursive form.
 - [`docs/EVIDENCE.md`](docs/EVIDENCE.md) — retrospective result map, BL/BL×CC evidence, real-XM matched-K result, claim ceilings, and provenance pointers.
 - [`docs/CORRIGIBLE_MEMORY.md`](docs/CORRIGIBLE_MEMORY.md) — provenance as a bounded compression problem; minimal corrigible-memory schema and reopenability rules.
@@ -215,7 +266,8 @@ freeze
 -> exact execution
 -> audit
 -> narrow result
--> local revision
+-> program-level compression
+-> deliberate next-question opening
 ```
 
 Contradictions should shrink or relocate claims, not be absorbed by unconstrained reinterpretation.
