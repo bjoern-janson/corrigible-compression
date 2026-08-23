@@ -40,7 +40,7 @@ ACQUISITION×RETENTION  = QUESTION EARNED — NO ASSAY
 CC                      = META-HYPOTHESIS
 ```
 
-A documentation-only conceptual continuation now records the reduction gate and correction-complexity formalization:
+A documentation-only conceptual continuation records the reduction gate and correction-complexity formalization:
 
 ```text
 FIXED-BASIS ADAPTIVE EPISTEMIC CONTROL = SUPPORTED PROGRAM ABSTRACTION
@@ -54,7 +54,19 @@ BL-003                                   = UNOPENED
 NEW ASSAY                                = NONE
 ```
 
-See [`docs/CORRECTION_COMPLEXITY.md`](docs/CORRECTION_COMPLEXITY.md) for the current conceptual freeze. The older [`docs/PROGRAM_MAP.md`](docs/PROGRAM_MAP.md) remains the prior program checkpoint and is not retroactively rewritten.
+The current mathematical continuation sharpens the repair-factorization profile into a static/online frontier:
+
+```text
+RFP                         = COUPLED PROFILE CANDIDATE
+NU_{eps,H}(ell)             = CENTRAL STATIC/ONLINE FRONTIER CANDIDATE
+B*_{eps,H}(ell)             = ceil(log2 NU_{eps,H}(ell))
+PAIRWISE OVERLAP GRAPH      = LOWER-BOUND OBJECT, NOT GENERALLY EXACT
+REPAIR-COVER HYPERGRAPH     = EXACT UNCONSTRAINED COMBINATORIAL OBJECT
+NEW FOUNDATIONAL THEORY     = NOT ESTABLISHED
+NEW ASSAY                   = NONE
+```
+
+See [`docs/CORRECTION_COMPLEXITY.md`](docs/CORRECTION_COMPLEXITY.md) for the reduction/correction-complexity freeze and [`docs/RFP_STATIC_ONLINE.md`](docs/RFP_STATIC_ONLINE.md) for the current mathematical continuation. The older [`docs/PROGRAM_MAP.md`](docs/PROGRAM_MAP.md) remains the prior program checkpoint and is not retroactively rewritten.
 
 The empirical broad-learning progression remains:
 
@@ -77,19 +89,47 @@ with a hard reduction gate:
 
 The current completed fixed-basis behavioral edges do not identify such a remainder. BL×CC-001 is therefore interpreted as evidence for a controllable feedback property, not yet as evidence for corrigibility as a distinct mechanism.
 
-The next mathematical object is not a new assay. It is the relative candidate:
+The correction-complexity line asks for reusable repair machinery under a prospectively fixed architecture and evaluator:
 
 ```text
 kappa_gen^{H,rho}(E | A, Rec^dagger)
 ```
 
-which asks for the minimum cost of a prospectively fixed reusable affordance basis from which a frozen constructor can generate sufficient recovery procedures across a stated failure class within a stated horizon and recovery threshold.
-
 Open hypothesis:
 
 > **Some structured failure classes may admit substantial compression of recovery machinery: a small reusable correction basis may support many held-out repairs more cheaply than directly preserving failure-specific repairs.**
 
-This hypothesis is constrained by the standing impossibility boundary:
+The mathematical continuation now distinguishes static repair structure from online discrimination. For fixed evidence interface `O`, horizon `H`, recovery tolerance `epsilon`, and static architecture budget `ell`:
+
+```text
+nu_{epsilon,H}(ell)
+= minimum number of runtime repair branches achievable
+  by an architecture of cost <= ell.
+
+b*_{epsilon,H}(ell)
+= ceil(log2 nu_{epsilon,H}(ell)).
+```
+
+The governing correction is:
+
+> **Static repair structure does not substitute for information about which failure occurred. It reduces online information demand only when additional reusable machinery makes previously distinct failures share a valid bounded repair policy.**
+
+This yields three distinct outcomes:
+
+```text
+no exchange
+= permanent diagnostic floor
+
+threshold / progressive exchange
+= static architecture enables broader shared repairs
+
+aliased incompatible failures
+= infeasible through the fixed evidence interface, not merely expensive
+```
+
+The pairwise repair-conflict/overlap graph is useful for lower bounds, but it is not exact in general because higher-order incompatibility can survive pairwise overlap. The exact unconstrained combinatorial object is a repair-policy coverage hypergraph over observation fibers; the budgeted object additionally requires the useful policy cover to be jointly realizable within static cost `ell`.
+
+The standing impossibility boundary remains:
 
 > **No finite basis gives universal recovery over an unrestricted open-ended failure class without exploitable correction structure.**
 
@@ -277,11 +317,12 @@ See the full evidence and non-claim ledger before extending the theory.
 ## Repository map
 
 - [`docs/PROGRAM_MAP.md`](docs/PROGRAM_MAP.md) — prior frozen program-level checkpoint: completed empirical ladder, research layers, blindness taxonomy, load-bearing boundaries, and deliberately unopened questions.
-- [`docs/CORRECTION_COMPLEXITY.md`](docs/CORRECTION_COMPLEXITY.md) — current conceptual freeze: strong adaptive-control reduction gate, bounded reopenability pressure test, correction-cover complexity, formal candidate `kappa_gen^{H,rho}`, CRCB hypothesis, and meta-authority boundary.
+- [`docs/CORRECTION_COMPLEXITY.md`](docs/CORRECTION_COMPLEXITY.md) — conceptual reduction/correction-complexity freeze: strong adaptive-control reduction gate, bounded reopenability pressure test, correction-cover complexity, formal candidate `kappa_gen^{H,rho}`, CRCB hypothesis, and meta-authority boundary.
+- [`docs/RFP_STATIC_ONLINE.md`](docs/RFP_STATIC_ONLINE.md) — current mathematical continuation: repair-factorization profile, architecture-constrained `nu_{epsilon,H}(ell)`, static/online frontier, evidence quotient, repair-cover hypergraph, conflict-graph lower bound, and conditional composition properties.
 - [`docs/CONSTITUTION.md`](docs/CONSTITUTION.md) — frozen meta-hypothesis, scope, anti-collapse constraints, protected freshness, recursive form.
 - [`docs/EVIDENCE.md`](docs/EVIDENCE.md) — retrospective result map, BL/BL×CC evidence, real-XM matched-K result, claim ceilings, and provenance pointers.
 - [`docs/CORRIGIBLE_MEMORY.md`](docs/CORRIGIBLE_MEMORY.md) — provenance as a bounded compression problem; minimal corrigible-memory schema and reopenability rules.
-- [`docs/FRONTIER.md`](docs/FRONTIER.md) — open questions and historical frontier constraints; read together with the newer correction-complexity conceptual freeze.
+- [`docs/FRONTIER.md`](docs/FRONTIER.md) — open questions and historical frontier constraints; read together with the newer conceptual/mathematical continuation notes.
 - [`experiments/BLXCC001_RESULT.md`](experiments/BLXCC001_RESULT.md) — prospectively frozen BL×CC-001 execution result, post-run audit, claim ceiling, and execution provenance.
 
 ## Research posture
@@ -293,7 +334,8 @@ freeze
 -> narrow result
 -> program-level compression
 -> reduction attempt
--> formalization
+-> correction-complexity formalization
+-> mathematical pressure test
 -> deliberate next-question opening
 ```
 
