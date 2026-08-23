@@ -1,0 +1,72 @@
+{
+  "Delta": -0.004517676035563136,
+  "audit": {
+    "derived_q8": [
+      [6,3],
+      [9,2],
+      [10,5],
+      [9,3],
+      [2,10],
+      [4,9],
+      [1,9],
+      [7,10]
+    ],
+    "pass": true,
+    "perm_hash_match": true,
+    "q8_exact_match": true,
+    "q8_hash_match": true,
+    "unique_noiseless_q8_signatures": 32,
+    "unique_topology_count": 32
+  },
+  "bl002_designed": false,
+  "claim_ceiling": "Frozen finite-family allocation result only; no adaptive surveying or topology invention.",
+  "environment": {
+    "numpy": "2.3.5",
+    "platform": "Linux-6.18.35-x86_64-with-glibc2.41",
+    "python": "3.13.5",
+    "scipy": "1.17.0"
+  },
+  "family": {
+    "noise_seeds_per_world": 256,
+    "paired_specimens": 8192,
+    "worlds": 32
+  },
+  "map_diagnostic": {
+    "ci95_two_sided": [-0.031434474499005736,-0.02987923228820012],
+    "df": 31,
+    "map_candidate_MAP_accuracy": 0.9842529296875,
+    "map_mse_difference_mean": -0.030656853393602926,
+    "mean": -0.03065685339360293,
+    "p_one_sided": 7.46000553609915e-38,
+    "raw_mse_mean": 0.0314224967407782,
+    "sd": 0.002156832681032424,
+    "se": 0.0003812777536606972,
+    "t": -80.4055654946099,
+    "topo_mse_mean": 0.0007656433471752654,
+    "upper95_one_sided": -0.03001038980090432
+  },
+  "primary": {
+    "ci95_two_sided": [-0.005705229911285542,-0.0033301221598407297],
+    "df": 31,
+    "mean": -0.004517676035563136,
+    "p_one_sided": 4.696482726098215e-09,
+    "sd": 0.0032938342231825313,
+    "se": 0.0005822731288291729,
+    "t": -7.758688855601526,
+    "upper95_one_sided": -0.0035304210090615247
+  },
+  "regret": {
+    "loss_count": 62,
+    "loss_fraction": 0.007568359375,
+    "oracle_gap_fraction_closed": 0.9846517331929135,
+    "raw_mean": 0.004588095347086573,
+    "raw_median": 0.004322916666666621,
+    "tie_count": 1363,
+    "tie_fraction": 0.1663818359375,
+    "topo_mean": 0.00007041931152343696,
+    "topo_median": 0.0,
+    "win_count": 6767,
+    "win_fraction": 0.8260498046875
+  },
+  "status": "TOPOLOGY_ADDS_ALLOCATION_VALUE"
+}
