@@ -1,0 +1,86 @@
+{
+  "status": "POST_RUN_AUDIT_PASS",
+  "checks": [
+    {
+      "name": "exact frozen executable blob",
+      "pass": true,
+      "detail": "bf4c72a9c2cdb102f55fdead71a82a0120fe5caa"
+    },
+    {
+      "name": "config hash unchanged",
+      "pass": true,
+      "detail": "3b06b39fb942aaecdccad138ceb763a5495092231e5a26bf07c2d0fc921559ba"
+    },
+    {
+      "name": "reference executable provenance",
+      "pass": true,
+      "detail": "REFERENCE_EXECUTABLE_COMPLETED"
+    },
+    {
+      "name": "paired specimen count",
+      "pass": true,
+      "detail": 8192
+    },
+    {
+      "name": "delta arithmetic",
+      "pass": true,
+      "detail": "0.096191406250"
+    },
+    {
+      "name": "discordant net matches delta",
+      "pass": true,
+      "detail": "1139-351=788"
+    },
+    {
+      "name": "McNemar p recomputes exactly",
+      "pass": true,
+      "detail": "1.8858785303612578e-97"
+    },
+    {
+      "name": "classification follows frozen rule",
+      "pass": true,
+      "detail": "CORRECTIVE_INFLUENCE_ADDS_SUSTAINED_ESCAPE"
+    },
+    {
+      "name": "all 8192 A/B science pairs identical through W",
+      "pass": true,
+      "detail": "active=5651, inactive=2541, mismatches=[]"
+    },
+    {
+      "name": "inactive A/B scientific states remain identical",
+      "pass": true,
+      "detail": "2541/2541"
+    },
+    {
+      "name": "positive A-B in world L",
+      "pass": true,
+      "detail": "0.094726562500"
+    },
+    {
+      "name": "positive A-B in world R",
+      "pass": true,
+      "detail": "0.097656250000"
+    },
+    {
+      "name": "C-D arithmetic",
+      "pass": true,
+      "detail": "0.056884765625"
+    },
+    {
+      "name": "B-D arithmetic",
+      "pass": true,
+      "detail": "-0.066528320312"
+    },
+    {
+      "name": "interaction arithmetic",
+      "pass": true,
+      "detail": "0.039306640625"
+    },
+    {
+      "name": "prediction kept separate from observed result",
+      "pass": true,
+      "detail": "pred=0.08821044, obs=0.09619141, diff=+0.00798097"
+    }
+  ],
+  "raw_result_sha256": "ededa31557928037fa8b167d0afe6543ed016ae028915f801275b6f654d1c79c"
+}
