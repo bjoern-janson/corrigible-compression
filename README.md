@@ -59,6 +59,8 @@ detection/challenge != identification
 authority           != realized influence
 ```
 
+BL×CC-001 now provides a direct synthetic intervention witness on the second distinction: matched consequence evidence reached the same `W_corr` state in paired learners, but allowing versus cutting `W_corr -> U_corr` changed sustained escape from a wrong but representationally repairable allocation regime. This is a local result in one frozen supplied-family world, not evidence for a universal `W -> U` mechanism.
+
 ## Protected freshness
 
 For authority-bearing source `Z_t`, relative to threat model `pi`:
@@ -139,20 +141,72 @@ The repository deliberately distinguishes synthesis from evidence.
 
 Current high-level ledger:
 
+```text
+BL-001     = POSITIVE — TOPOLOGY UTILIZATION
+BL-002     = POSITIVE — ACTIVE SURVEYING
+BL×CC-001  = POSITIVE — CORRECTIVE INFLUENCE ADDS SUSTAINED ESCAPE
+BL-003     = QUESTION EARNED — UNDESIGNED
+ACQUISITION×RETENTION = QUESTION EARNED — NO ASSAY
+CC         = META-HYPOTHESIS
+```
+
+The current earned sequence is:
+
+```text
+sparse relational evidence
+-> topology use
+-> better depth allocation
+
+existing evidence
+-> adaptive measurement choice
+-> better depth allocation
+
+warranted corrective evidence
+-> developmental influence
+-> increased sustained escape
+```
+
+Load-bearing boundaries remain:
+
+```text
+T* in H
+BL allocates epistemic resolution
+CC preserves routes for correcting that allocation
+better allocation != preserved corrigibility
+```
+
+BL-001/002 are not direct empirical evidence for corrigibility. BL×CC-001 is the first prospective intersection assay: within a frozen symmetric two-topology synthetic world, allowing the same matched task-consequence likelihood signal to acquire developmental influence increased first sustained two-round correct allocation relative to cutting only that consequence `W_corr -> U_corr` route.
+
+Observed BL×CC-001 primary result:
+
+```text
+A sustained escape = 0.61083984375
+B sustained escape = 0.51464843750
+Delta_esc          = +0.09619140625
+McNemar p, 1-sided = 1.8858785303612578e-97
+```
+
+The direction was positive in both mirror worlds. All 8192 A/B science pairs were post-run audited as identical through `W_corr`; only afterward was the frozen `W_corr -> U_corr` intervention permitted to create divergence.
+
+The BL×CC result does **not** establish topology invention, general corrigible compression, architecture/retention corrigibility, or a universal authority-to-influence mechanism. `T* in H` remains load-bearing.
+
+Separately:
+
 - AA toy work established existential separations such as exposure not implying authority and authority not implying equivalent realized influence.
 - The real-XM matched `K in {1,2,5,8,12}` ImageNet-subset surface did **not** demonstrate gross or monotonically growing marginal authority topology; observed regional `rho` spread was consistent with finite-count noise.
 - `Q_hold` heterogeneity therefore cannot be retroactively relabeled authority starvation.
 - A possible high-`K` authority/competence coupling remains a **fresh-seed replication target**, not a causal result.
-- The retrospective synthesis survives only because it preserves the distinctions between C4, CSD/MAB, T13, AA, and XM rather than calling them one mechanism.
+- The retrospective synthesis survives only because it preserves the distinctions between C4, CSD/MAB, T13, AA, XM, BL, and BL×CC rather than calling them one mechanism.
 
 See the full evidence and non-claim ledger before extending the theory.
 
 ## Repository map
 
 - [`docs/CONSTITUTION.md`](docs/CONSTITUTION.md) — frozen meta-hypothesis, scope, anti-collapse constraints, protected freshness, recursive form.
-- [`docs/EVIDENCE.md`](docs/EVIDENCE.md) — retrospective result map, real-XM matched-K result, claim ceilings, and external provenance hashes.
+- [`docs/EVIDENCE.md`](docs/EVIDENCE.md) — retrospective result map, BL/BL×CC evidence, real-XM matched-K result, claim ceilings, and provenance pointers.
 - [`docs/CORRIGIBLE_MEMORY.md`](docs/CORRIGIBLE_MEMORY.md) — provenance as a bounded compression problem; minimal corrigible-memory schema and reopenability rules.
-- [`docs/FRONTIER.md`](docs/FRONTIER.md) — open questions only: typed corrective-reach graph, protected ingress, temporal path survivability, identification gate, and fresh-seed XM replication target.
+- [`docs/FRONTIER.md`](docs/FRONTIER.md) — open questions only: typed corrective-reach graph, protected ingress, temporal path survivability, BL-003 topology invention, acquisition×retention corrigibility, and fresh-seed XM replication.
+- [`experiments/BLXCC001_RESULT.md`](experiments/BLXCC001_RESULT.md) — prospectively frozen BL×CC-001 execution result, post-run audit, claim ceiling, and execution provenance.
 
 ## Research posture
 
