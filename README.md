@@ -66,7 +66,7 @@ NEW FOUNDATIONAL THEORY     = NOT ESTABLISHED
 NEW ASSAY                   = NONE
 ```
 
-The latest mathematical continuation reduces the remaining architecture question to a range-constrained synthesis bicriteria frontier:
+The range-constrained mathematical continuation reduces the remaining architecture question to a synthesis bicriteria frontier:
 
 ```text
 TAU^O_{eps,H}                 = EXACT EVIDENCE-QUOTIENT COVER IN FINITE DETERMINISTIC SETTING
@@ -87,7 +87,34 @@ semantic feasibility
 != difficulty of finding / synthesizing the implementation
 ```
 
-See [`docs/CORRECTION_COMPLEXITY.md`](docs/CORRECTION_COMPLEXITY.md) for the reduction/correction-complexity freeze, [`docs/RFP_STATIC_ONLINE.md`](docs/RFP_STATIC_ONLINE.md) for the static/online RFP continuation, and [`docs/RANGE_BICRITERIA.md`](docs/RANGE_BICRITERIA.md) for the current range-constrained synthesis frontier. The older [`docs/PROGRAM_MAP.md`](docs/PROGRAM_MAP.md) remains the prior program checkpoint and is not retroactively rewritten.
+The current mathematical stopping point reduces the bounded-width continuation to contextual compression under admissible completion:
+
+```text
+RAW SEPARATOR STATE
+-> CONTEXTUAL QUOTIENT
+-> EFFECTIVE QUOTIENT
+-> COST-AWARE DP
+
+BEHAVIORAL EQUIVALENCE
+!= QUOTIENT SIZE
+!= QUOTIENT RECOGNITION COMPLEXITY
+!= COST DOMINANCE
+
+SEPARATOR COMPLETENESS        = LOAD-BEARING FOR SOUND FORGETTING
+SMALL CONTEXTUAL INDEX        = SEMANTIC COMPRESSION ONLY
+EFFECTIVE CONTEXTUAL INDEX    = LOAD-BEARING FOR QUOTIENT-BASED FPT DP
+COST DOMINANCE                = SEPARATE FROM BEHAVIORAL EQUIVALENCE
+NEW FINITE-INDEX PRINCIPLE    = NOT CLAIMED
+NEW ASSAY                     = NONE
+```
+
+The live mathematical gate is now deliberately payoff-based:
+
+> **Find a natural repair-synthesis family where contextual quotienting is exact, efficiently computable, compositionally closed, and changes the achievable `(m,ell)` frontier.**
+
+Anything failing one of those conditions remains **interesting formalism / no demonstrated payoff**.
+
+See [`docs/CORRECTION_COMPLEXITY.md`](docs/CORRECTION_COMPLEXITY.md) for the reduction/correction-complexity freeze, [`docs/RFP_STATIC_ONLINE.md`](docs/RFP_STATIC_ONLINE.md) for the static/online RFP continuation, [`docs/RANGE_BICRITERIA.md`](docs/RANGE_BICRITERIA.md) for the range-constrained synthesis frontier, and [`docs/CONTEXTUAL_QUOTIENT.md`](docs/CONTEXTUAL_QUOTIENT.md) for the current mathematical stopping point. The older [`docs/PROGRAM_MAP.md`](docs/PROGRAM_MAP.md) remains the prior program checkpoint and is not retroactively rewritten.
 
 The empirical broad-learning progression remains:
 
@@ -150,7 +177,7 @@ aliased incompatible failures
 
 The pairwise repair-conflict/overlap graph is useful for lower bounds, but it is not exact in general because higher-order incompatibility can survive pairwise overlap. The exact unconstrained combinatorial object is a repair-policy coverage hypergraph over observation fibers; the budgeted object additionally requires the useful policy cover to be jointly realizable within static cost `ell`.
 
-The newest reduction sharpens the architecture layer further:
+The range-constrained reduction sharpens the architecture layer further:
 
 ```text
 tau^O_{epsilon,H}
@@ -164,6 +191,25 @@ nu_{epsilon,H}(ell)
 ```
 
 For a fixed valid selector, joint routing/repair implementation reduces to ordinary resource-bounded program/circuit complexity. Unconstrained minimization over relation-compatible selectors lies in established Boolean relation / functional synthesis territory. The surviving specialization is the global coupling between selector range and minimum joint implementation complexity; its novelty is unestablished.
+
+The contextual-quotient continuation then separates what a bounded-width dynamic program actually needs:
+
+```text
+sound quotient
+!= small quotient
+!= efficiently computable quotient
+!= safe optimization pruning
+```
+
+The quotient is defined relative to the triple:
+
+```text
+(boundary object,
+admissible interface,
+completion class).
+```
+
+A partial architecture may be safely forgotten only when all completion-relevant semantics factor through the retained contextual class. A small quotient is algorithmically useful only when class recognition and composition are effective; optimal pruning additionally requires completion-stable cost dominance.
 
 The standing impossibility boundary remains:
 
@@ -355,7 +401,8 @@ See the full evidence and non-claim ledger before extending the theory.
 - [`docs/PROGRAM_MAP.md`](docs/PROGRAM_MAP.md) — prior frozen program-level checkpoint: completed empirical ladder, research layers, blindness taxonomy, load-bearing boundaries, and deliberately unopened questions.
 - [`docs/CORRECTION_COMPLEXITY.md`](docs/CORRECTION_COMPLEXITY.md) — conceptual reduction/correction-complexity freeze: strong adaptive-control reduction gate, bounded reopenability pressure test, correction-cover complexity, formal candidate `kappa_gen^{H,rho}`, CRCB hypothesis, and meta-authority boundary.
 - [`docs/RFP_STATIC_ONLINE.md`](docs/RFP_STATIC_ONLINE.md) — mathematical continuation: repair-factorization profile, architecture-constrained `nu_{epsilon,H}(ell)`, static/online frontier, evidence quotient, repair-cover hypergraph, conflict-graph lower bound, and conditional composition properties.
-- [`docs/RANGE_BICRITERIA.md`](docs/RANGE_BICRITERIA.md) — current mathematical freeze: evidence-quotient reduction, `Lambda^O_{epsilon,H}(m)` implementation spectrum, explicit/succinct decision-complexity reductions, permanent feasibility/size/search separation, and the surviving `(m,ell)` bicriteria theorem program.
+- [`docs/RANGE_BICRITERIA.md`](docs/RANGE_BICRITERIA.md) — range-constrained mathematical freeze: evidence-quotient reduction, `Lambda^O_{epsilon,H}(m)` implementation spectrum, explicit/succinct decision-complexity reductions, permanent feasibility/size/search separation, and the surviving `(m,ell)` bicriteria theorem program.
+- [`docs/CONTEXTUAL_QUOTIENT.md`](docs/CONTEXTUAL_QUOTIENT.md) — current mathematical stopping point: contextual equivalence, minimum-cardinality exact behavioral abstraction, sound/compact/effective/optimal separation, quotient-compression witnesses, cost dominance, and the payoff gate for any future continuation.
 - [`docs/CONSTITUTION.md`](docs/CONSTITUTION.md) — frozen meta-hypothesis, scope, anti-collapse constraints, protected freshness, recursive form.
 - [`docs/EVIDENCE.md`](docs/EVIDENCE.md) — retrospective result map, BL/BL×CC evidence, real-XM matched-K result, claim ceilings, and provenance pointers.
 - [`docs/CORRIGIBLE_MEMORY.md`](docs/CORRIGIBLE_MEMORY.md) — provenance as a bounded compression problem; minimal corrigible-memory schema and reopenability rules.
@@ -375,7 +422,8 @@ freeze
 -> static/online mathematical pressure test
 -> relation/synthesis reduction
 -> bicriteria frontier
--> deliberate next-question opening
+-> contextual quotient reduction
+-> PARKED UNTIL DEMONSTRATED PAYOFF
 ```
 
 Contradictions should shrink or relocate claims, not be absorbed by unconstrained reinterpretation.
