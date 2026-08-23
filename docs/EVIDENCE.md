@@ -116,6 +116,258 @@ hidden repair state is a general explanation of corrective-reach failure
 
 The non-replication is part of the result.
 
+## Broad-learning and BL×CC evidence
+
+The broad-learning line is kept separate from corrigible compression:
+
+```text
+BL = allocation of epistemic resolution
+CC = preservation of effective routes for correcting that allocation
+```
+
+BL-001 and BL-002 are evidence for the first statement. They are **not** direct empirical evidence for corrigibility itself.
+
+### BL-001 — topology utilization
+
+Frozen classification:
+
+```text
+BL-001 = POSITIVE — TOPOLOGY UTILIZATION
+```
+
+Earned edge:
+
+```text
+sparse relational evidence
+-> topology inference
+-> better allocation of scarce depth
+```
+
+Within the frozen supplied topology family, topology-aware completion reduced allocation regret relative to an equally informed non-topological baseline.
+
+Load-bearing boundary:
+
+```text
+T* in H
+```
+
+Therefore BL-001 is topology utilization, not topology invention.
+
+### BL-002 — active surveying
+
+Frozen scientific classification:
+
+```text
+BL-002 = POSITIVE — ACTIVE SURVEYING
+```
+
+Earned edge:
+
+```text
+existing evidence
+-> adaptive measurement choice
+-> better allocation of scarce depth
+```
+
+The primary family-level result was positive even though the frozen global map-MSE and posterior-entropy diagnostics did not secure corresponding improvements. Therefore:
+
+```text
+better allocation
+!=
+demonstrably better global topology reconstruction
+```
+
+Permanent execution-provenance qualifier:
+
+```text
+scientific classification:
+ACTIVE_SURVEYING_ADDS_ALLOCATION_VALUE
+
+execution provenance:
+RECOVERED VIA VALIDATED SEMANTIC-EQUIVALENCE EVALUATOR;
+REFERENCE EXECUTABLE TIMED OUT WITHOUT A RESULT PAYLOAD
+```
+
+Do not compress the second fact away when citing the first.
+
+`T* in H` remains load-bearing. BL-002 does not establish topology invention.
+
+### BL retrospective compression
+
+The strongest earned broad-learning statement is:
+
+> **Broad learning can adaptively allocate scarce measurement and depth over a supplied uncertain relational structure.**
+
+The retrospective BL/CC separation is:
+
+```text
+BL creates a consequential allocation process;
+CC asks whether that process remains correctable.
+```
+
+Compressed:
+
+```text
+epistemic efficiency
++
+epistemic reopenability
+```
+
+But these are separate empirical burdens:
+
+```text
+better epistemic allocation != preserved corrigibility
+```
+
+### BL×CC-001 — corrective influence under endogenous acquisition
+
+Frozen classification:
+
+```text
+BL×CC-001 = POSITIVE — CORRECTIVE INFLUENCE ADDS SUSTAINED ESCAPE
+```
+
+Prospective freeze head:
+
+```text
+ba69512b51d6d3aac82358c3c0a92cd2d750200c
+```
+
+Frozen configuration SHA256:
+
+```text
+3b06b39fb942aaecdccad138ceb763a5495092231e5a26bf07c2d0fc921559ba
+```
+
+Frozen executable blob:
+
+```text
+experiments/blxcc001.py
+bf4c72a9c2cdb102f55fdead71a82a0120fe5caa
+```
+
+The assay held the true topology inside the supplied family:
+
+```text
+T* in H = {T^L,T^R}
+```
+
+and initialized the learner with a mirror-wrong but representationally repairable map. The map controlled ordinary throughput-intervention choice, and the selected intervention changed the probe-conditioned topology-evidence kernel:
+
+```text
+T_hat_t
+-> q_t
+-> K_corr^(q_t,T*)
+```
+
+The paired A/B contrast preserved identical realized state through the matched consequence authority `W_corr` and intervened only on realized developmental influence:
+
+```text
+A: U_corr = W_corr
+B: U_corr = 0
+```
+
+Frozen primary endpoint:
+
+```text
+first sustained two-round oracle-correct allocation within t={0,1,2}
+```
+
+Observed primary rates:
+
+```text
+A = 0.61083984375
+B = 0.51464843750
+Delta_esc = +0.09619140625
+```
+
+Paired discordances:
+
+```text
+A=1, B=0: 1139
+A=0, B=1:  351
+```
+
+Frozen one-sided exact McNemar/binomial result:
+
+```text
+p = 1.8858785303612578e-97
+```
+
+The primary direction was positive in both mirror worlds:
+
+```text
+world L: A-B = +0.0947265625
+world R: A-B = +0.09765625
+```
+
+Post-run causal audit:
+
+```text
+8192 / 8192 A/B science pairs identical through W_corr
+2541 / 2541 no-consequence-event specimens scientifically identical end-to-end
+POST_RUN_AUDIT_PASS
+```
+
+The first external post-run audit attempt falsely failed because the audit comparator included the treatment label `cell="A"` versus `cell="B"` when testing inactive trajectory equality. The comparator was corrected to compare scientific state fields and then passed. This was an audit-implementation correction only: the frozen executable, raw scientific result, and frozen analysis remained unchanged.
+
+The design-stage prospective prediction:
+
+```text
+Delta_esc^(A-B) ~= +0.08821044
+```
+
+remains separate from the observed result and earns no evidential credit from its proximity.
+
+Earned claim:
+
+> **Within this frozen symmetric supplied two-topology synthetic world, fixed allocation-competence state, map-conditioned ordinary throughput-intervention policy, and three-round horizon, allowing the matched ordinary task-consequence likelihood signal to acquire developmental influence increased the probability of first sustained two-round correct allocation relative to cutting only that consequence `W_corr -> U_corr` channel.**
+
+Useful compressed empirical edge:
+
+```text
+warranted corrective evidence
+-> developmental influence
+-> increased sustained escape
+```
+
+under endogenous epistemic allocation.
+
+This is stronger than the prior existential statement `W != U`: BL×CC-001 directly intervened on the distinction and observed a downstream consequential difference.
+
+Secondary/descriptive controls only:
+
+```text
+C-D = +0.056884765625
+B-D = -0.0665283203125
+(A-B)-(C-D) = +0.039306640625
+```
+
+These are mechanism diagnostics and cannot redefine or expand the primary claim. In particular, the interaction is **not** a preregistered standalone empirical claim.
+
+BL×CC-001 does **not** establish:
+
+- topology invention;
+- out-of-family representation expansion;
+- general corrigible compression;
+- a universal `W -> U` mechanism;
+- retention-stage corrigibility;
+- architecture-level blindness repair;
+- a universal acquisition rule;
+- human or neural competence topology;
+- broad intelligence in general.
+
+### Current BL/CC ledger
+
+```text
+BL-001     = POSITIVE — TOPOLOGY UTILIZATION
+BL-002     = POSITIVE — ACTIVE SURVEYING
+BL×CC-001  = POSITIVE — CORRECTIVE INFLUENCE ADDS SUSTAINED ESCAPE
+BL-003     = QUESTION EARNED — UNDESIGNED
+ACQUISITION×RETENTION = QUESTION EARNED — NO ASSAY
+CC         = META-HYPOTHESIS
+```
+
 ## Real XM evidence boundary
 
 The real-XM observer and matched-K surface are external evidence relevant to this synthesis, but must remain separate from the toy AA mechanism claims.
@@ -243,7 +495,11 @@ The repository must not claim that any of the following are established:
 - metaphysical indeterminacy as an engineering requirement;
 - source protection as equivalent to channel protection;
 - fresh-seed replication of the high-K XM coupling;
-- a causal mechanism behind that coupling.
+- a causal mechanism behind that coupling;
+- topology invention or BL-003 success;
+- acquisition×retention corrigibility as an empirical result;
+- generalization of BL×CC-001 beyond its frozen supplied-family synthetic setting;
+- the BL×CC secondary interaction as a standalone confirmed mechanism.
 
 ## Research discipline
 
