@@ -152,7 +152,62 @@ m(S) = number of distinct future-relevant control signatures
 
 Produced `SUP`, `SSUP`, or local-controller `(m,ell)` measurements are artifact measurements, not intrinsic `Lambda` minima unless matching lower bounds or an explicitly restricted architecture class justify that interpretation.
 
-See [`docs/CORRECTION_COMPLEXITY.md`](docs/CORRECTION_COMPLEXITY.md) for the reduction/correction-complexity freeze, [`docs/RFP_STATIC_ONLINE.md`](docs/RFP_STATIC_ONLINE.md) for the static/online RFP continuation, [`docs/RANGE_BICRITERIA.md`](docs/RANGE_BICRITERIA.md) for the range-constrained synthesis frontier, [`docs/CONTEXTUAL_QUOTIENT.md`](docs/CONTEXTUAL_QUOTIENT.md) for the mathematical stopping point, and [`docs/DES_PAYOFF_AUDIT.md`](docs/DES_PAYOFF_AUDIT.md) for the external DES payoff translation and negative intrinsic-frontier result. The older [`docs/PROGRAM_MAP.md`](docs/PROGRAM_MAP.md) remains the prior program checkpoint and is not retroactively rewritten.
+The terminal conceptual reduction then strengthened the conventional comparator through strategic and authority-aware control rather than opening a new CC layer:
+
+```text
+adaptive control
+-> Bayes-adaptive control
+-> game-theoretic strategic control
+-> authority-aware strategic control
+-> NORMATIVE GROUNDING BOUNDARY
+```
+
+Current terminal ledger:
+
+```text
+H_AC^*                         = SURVIVES
+H_GAME^*                       = SURVIVES
+H_AUTH^*                       = SURVIVES
+CC-SPECIFIC OPTIMIZATION       = UNESTABLISHED
+AUTHORITY UNCERTAINTY          = REPRESENTABLE / REDUCIBLE
+AUTHORITY GROUNDING            = NORMATIVE BOUNDARY
+BL-003                         = UNOPENED
+NEW ASSAY                      = NONE
+```
+
+The final authority stack is:
+
+```text
+M_t        = world / model state
+U_t        = task / objective
+Gamma_t    = authority / control rights
+Phi_t      = criterion for legitimate authority revision
+Psi^dagger = terminal normative grounding
+```
+
+Everything below `Psi^dagger` can, in principle, be folded into a sufficiently complete decision/game model when the terminal criterion is independently specified. If no terminal criterion or fixed meta-decision rule is supplied, the remaining question is normatively under-specified rather than evidence for an irreducible CC optimizer.
+
+Permanent terminal distinction:
+
+```text
+authority uncertainty
+!= authority grounding
+```
+
+and:
+
+```text
+correction can be valuable
+!= corrigibility is a distinct optimization primitive.
+```
+
+The strongest surviving interpretation of CC is therefore architectural / procedural:
+
+> **Preserve effective, low-cost routes through which externally grounded correction can still reach and alter the system.**
+
+CC does not currently solve authority grounding and is not supported as an independently necessary optimization mechanism.
+
+See [`docs/CORRECTION_COMPLEXITY.md`](docs/CORRECTION_COMPLEXITY.md) for the reduction/correction-complexity freeze, [`docs/RFP_STATIC_ONLINE.md`](docs/RFP_STATIC_ONLINE.md) for the static/online RFP continuation, [`docs/RANGE_BICRITERIA.md`](docs/RANGE_BICRITERIA.md) for the range-constrained synthesis frontier, [`docs/CONTEXTUAL_QUOTIENT.md`](docs/CONTEXTUAL_QUOTIENT.md) for the mathematical stopping point, [`docs/DES_PAYOFF_AUDIT.md`](docs/DES_PAYOFF_AUDIT.md) for the external DES payoff translation and negative intrinsic-frontier result, and [`docs/AUTHORITY_GROUNDING.md`](docs/AUTHORITY_GROUNDING.md) for the terminal reduction ladder and normative-grounding boundary. The older [`docs/PROGRAM_MAP.md`](docs/PROGRAM_MAP.md) remains the prior program checkpoint and is not retroactively rewritten.
 
 The empirical broad-learning progression remains:
 
@@ -260,6 +315,19 @@ but
 
 easier synthesis
 != smaller unrestricted intrinsic Lambda(m).
+```
+
+The authority-grounding freeze adds the terminal reduction without reopening the empirical or mathematical apparatus:
+
+```text
+fixed / uncertain / mutable represented authority
+-> conventional strategic-control reduction
+
+no independently specified terminal legitimacy criterion
+-> normative under-specification
+
+known CC-specific optimization residual
+-> none identified.
 ```
 
 The standing impossibility boundary remains:
@@ -455,6 +523,7 @@ See the full evidence and non-claim ledger before extending the theory.
 - [`docs/RANGE_BICRITERIA.md`](docs/RANGE_BICRITERIA.md) — range-constrained mathematical freeze: evidence-quotient reduction, `Lambda^O_{epsilon,H}(m)` implementation spectrum, explicit/succinct decision-complexity reductions, permanent feasibility/size/search separation, and the surviving `(m,ell)` bicriteria theorem program.
 - [`docs/CONTEXTUAL_QUOTIENT.md`](docs/CONTEXTUAL_QUOTIENT.md) — mathematical stopping point: contextual equivalence, minimum-cardinality exact behavioral abstraction, sound/compact/effective/optimal separation, quotient-compression witnesses, cost dominance, and the payoff gate for any future continuation.
 - [`docs/DES_PAYOFF_AUDIT.md`](docs/DES_PAYOFF_AUDIT.md) — targeted external payoff translation: repeated-agent DES template/relabeling, produced-artifact `(m,ell)` discipline, real synthesis/construction payoff, and the negative result that nested template architectures do not establish a lower unrestricted intrinsic `Lambda(m)` frontier.
+- [`docs/AUTHORITY_GROUNDING.md`](docs/AUTHORITY_GROUNDING.md) — terminal conceptual freeze: `H_AC^*`, `H_GAME^*`, and `H_AUTH^*` reductions, mutable authority / legitimacy analysis, the non-vacuity firewall, and authority grounding as the normative boundary.
 - [`docs/CONSTITUTION.md`](docs/CONSTITUTION.md) — frozen meta-hypothesis, scope, anti-collapse constraints, protected freshness, recursive form.
 - [`docs/EVIDENCE.md`](docs/EVIDENCE.md) — retrospective result map, BL/BL×CC evidence, real-XM matched-K result, claim ceilings, and provenance pointers.
 - [`docs/CORRIGIBLE_MEMORY.md`](docs/CORRIGIBLE_MEMORY.md) — provenance as a bounded compression problem; minimal corrigible-memory schema and reopenability rules.
@@ -478,6 +547,9 @@ freeze
 -> PARKED UNTIL DEMONSTRATED PAYOFF
 -> targeted DES payoff hunt
 -> REAL SYNTHESIS PAYOFF / STRICT RFP PAYOFF NOT EARNED
+-> strategic-control reduction
+-> authority-aware reduction
+-> NORMATIVE GROUNDING BOUNDARY
 -> PARKED
 ```
 
