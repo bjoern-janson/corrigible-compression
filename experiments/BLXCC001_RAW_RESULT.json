@@ -1,0 +1,46 @@
+{
+  "claim_ceiling": "A positive primary result supports only that, within this frozen symmetric supplied two-topology synthetic world and three-round horizon, allowing the matched ordinary consequence likelihood signal to acquire developmental influence increased first sustained correct allocation relative to cutting only that consequence W->U channel under endogenous throughput-probe allocation.",
+  "config_hash": "3b06b39fb942aaecdccad138ceb763a5495092231e5a26bf07c2d0fc921559ba",
+  "execution_provenance": "REFERENCE_EXECUTABLE_COMPLETED",
+  "n_paired_specimens": 8192,
+  "per_world_rates": {
+    "L": {
+      "A": 0.601318359375,
+      "B": 0.506591796875,
+      "C": 0.62451171875,
+      "D": 0.57275390625
+    },
+    "R": {
+      "A": 0.620361328125,
+      "B": 0.522705078125,
+      "C": 0.651611328125,
+      "D": 0.589599609375
+    }
+  },
+  "primary": {
+    "alpha": 0.05,
+    "delta_esc": 0.09619140625,
+    "discordant_A0_B1": 351,
+    "discordant_A1_B0": 1139,
+    "estimand": "P(A sustained escape) - P(B sustained escape)",
+    "one_sided_exact_mcnemar_p": 1.8858785303612578e-97
+  },
+  "rates": {
+    "A": 0.61083984375,
+    "B": 0.5146484375,
+    "C": 0.6380615234375,
+    "D": 0.5811767578125
+  },
+  "secondary_descriptive_controls": {
+    "B_minus_D": -0.0665283203125,
+    "C_minus_D": 0.056884765625,
+    "interaction_AB_minus_CD": 0.039306640625,
+    "note": "Secondary/descriptive; cannot redefine the primary classification."
+  },
+  "seeds_per_world": 4096,
+  "status": "CORRECTIVE_INFLUENCE_ADDS_SUSTAINED_ESCAPE",
+  "worlds": [
+    "L",
+    "R"
+  ]
+}
