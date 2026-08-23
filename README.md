@@ -30,7 +30,7 @@ All claims are relative to **bounded resources, a stated consequence class, a st
 
 ## Program checkpoint
 
-The current program-level research map is frozen separately from the completed experimental branch:
+The earlier program-level research map remains frozen separately from the completed experimental branch:
 
 ```text
 PROGRAM CHECKPOINT 001 = FROZEN RESEARCH MAP
@@ -40,7 +40,23 @@ ACQUISITION×RETENTION  = QUESTION EARNED — NO ASSAY
 CC                      = META-HYPOTHESIS
 ```
 
-The empirical broad-learning progression is:
+A documentation-only conceptual continuation now records the reduction gate and correction-complexity formalization:
+
+```text
+FIXED-BASIS ADAPTIVE EPISTEMIC CONTROL = SUPPORTED PROGRAM ABSTRACTION
+CORRECTIVE REACH                         = SUPPORTED LOCALLY
+CC-SPECIFIC IRREDUCIBILITY              = UNESTABLISHED
+FIXED-BASIS CC MECHANISMHOOD            = REDUCIBLE IN CURRENT COMPLETED SETTING
+KAPPA_GEN                                = FORMAL CANDIDATE — RELATIVE / FALSIFIABLE
+H_CRCB                                   = OPEN HYPOTHESIS
+META-AUTHORITY CLOSURE                   = OPEN
+BL-003                                   = UNOPENED
+NEW ASSAY                                = NONE
+```
+
+See [`docs/CORRECTION_COMPLEXITY.md`](docs/CORRECTION_COMPLEXITY.md) for the current conceptual freeze. The older [`docs/PROGRAM_MAP.md`](docs/PROGRAM_MAP.md) remains the prior program checkpoint and is not retroactively rewritten.
+
+The empirical broad-learning progression remains:
 
 ```text
 BL-001: use supplied relational structure
@@ -48,35 +64,42 @@ BL-001: use supplied relational structure
 -> BL×CC-001: preserve corrective developmental reach while allocating
 ```
 
-Program-level compression:
+Current cross-program interpretation:
 
 ```text
-relational structure
--> adaptive surveying
--> correctable allocation
+fixed-basis adaptive epistemic control
+= allocation efficiency + local corrective feedback reach
 ```
 
-The next major unopened scientific question is deliberately not designed here:
+with a hard reduction gate:
 
-> **Can the learner discover that its available relational distinctions are themselves inadequate?**
+> **Before any purported CC-specific assay, specify a prediction that a genuinely strong adaptive-control model cannot reproduce.**
 
-The checkpoint also preserves the distinct failure depths:
+The current completed fixed-basis behavioral edges do not identify such a remainder. BL×CC-001 is therefore interpreted as evidence for a controllable feedback property, not yet as evidence for corrigibility as a distinct mechanism.
+
+The next mathematical object is not a new assay. It is the relative candidate:
 
 ```text
-policy blindness
-!= retention blindness
-!= architectural blindness
+kappa_gen^{H,rho}(E | A, Rec^dagger)
 ```
 
-and the asymmetric evidence state:
+which asks for the minimum cost of a prospectively fixed reusable affordance basis from which a frozen constructor can generate sufficient recovery procedures across a stated failure class within a stated horizon and recovery threshold.
+
+Open hypothesis:
+
+> **Some structured failure classes may admit substantial compression of recovery machinery: a small reusable correction basis may support many held-out repairs more cheaply than directly preserving failure-specific repairs.**
+
+This hypothesis is constrained by the standing impossibility boundary:
+
+> **No finite basis gives universal recovery over an unrestricted open-ended failure class without exploitable correction structure.**
+
+And correction machinery remains distinct from the authority/evaluator that determines what counts as correction:
 
 ```text
-efficient allocation            = empirically supported in frozen synthetic BL assays
-corrective reach for allocation = empirically supported in frozen synthetic BL×CC-001
-representational extensibility  = open question; no BL-003 assay
+correction architecture != recovery authority
 ```
 
-See [`docs/PROGRAM_MAP.md`](docs/PROGRAM_MAP.md) before opening another experimental layer.
+When the current objective itself is under correction, the recovery criterion must not silently be supplied by that same objective.
 
 ## Load-bearing constraints
 
@@ -221,9 +244,10 @@ Load-bearing boundaries remain:
 ```text
 T* in H
 BL allocates epistemic resolution
-CC preserves routes for correcting that allocation
 better allocation != preserved corrigibility
 ```
+
+The earlier shorthand `CC preserves routes for correcting that allocation` is now interpreted as a structural/design reading, not as an empirically identified mechanism. Under the completed fixed-basis assumptions, the observed benefit is explainable by sufficiently complete adaptive control.
 
 BL-001/002 are not direct empirical evidence for corrigibility. BL×CC-001 is the first prospective intersection assay: within a frozen symmetric two-topology synthetic world, allowing the same matched task-consequence likelihood signal to acquire developmental influence increased first sustained two-round correct allocation relative to cutting only that consequence `W_corr -> U_corr` route.
 
@@ -238,7 +262,7 @@ McNemar p, 1-sided = 1.8858785303612578e-97
 
 The direction was positive in both mirror worlds. All 8192 A/B science pairs were post-run audited as identical through `W_corr`; only afterward was the frozen `W_corr -> U_corr` intervention permitted to create divergence.
 
-The BL×CC result does **not** establish topology invention, general corrigible compression, architecture/retention corrigibility, or a universal authority-to-influence mechanism. `T* in H` remains load-bearing.
+The BL×CC result does **not** establish topology invention, general corrigible compression, architecture/retention corrigibility, a universal authority-to-influence mechanism, or CC-specific irreducibility. `T* in H` remains load-bearing.
 
 Separately:
 
@@ -252,11 +276,12 @@ See the full evidence and non-claim ledger before extending the theory.
 
 ## Repository map
 
-- [`docs/PROGRAM_MAP.md`](docs/PROGRAM_MAP.md) — frozen program-level checkpoint: completed empirical ladder, three research layers, blindness taxonomy, load-bearing boundaries, and deliberately unopened questions.
+- [`docs/PROGRAM_MAP.md`](docs/PROGRAM_MAP.md) — prior frozen program-level checkpoint: completed empirical ladder, research layers, blindness taxonomy, load-bearing boundaries, and deliberately unopened questions.
+- [`docs/CORRECTION_COMPLEXITY.md`](docs/CORRECTION_COMPLEXITY.md) — current conceptual freeze: strong adaptive-control reduction gate, bounded reopenability pressure test, correction-cover complexity, formal candidate `kappa_gen^{H,rho}`, CRCB hypothesis, and meta-authority boundary.
 - [`docs/CONSTITUTION.md`](docs/CONSTITUTION.md) — frozen meta-hypothesis, scope, anti-collapse constraints, protected freshness, recursive form.
 - [`docs/EVIDENCE.md`](docs/EVIDENCE.md) — retrospective result map, BL/BL×CC evidence, real-XM matched-K result, claim ceilings, and provenance pointers.
 - [`docs/CORRIGIBLE_MEMORY.md`](docs/CORRIGIBLE_MEMORY.md) — provenance as a bounded compression problem; minimal corrigible-memory schema and reopenability rules.
-- [`docs/FRONTIER.md`](docs/FRONTIER.md) — open questions only: typed corrective-reach graph, protected ingress, temporal path survivability, BL-003 topology invention, acquisition×retention corrigibility, and fresh-seed XM replication.
+- [`docs/FRONTIER.md`](docs/FRONTIER.md) — open questions and historical frontier constraints; read together with the newer correction-complexity conceptual freeze.
 - [`experiments/BLXCC001_RESULT.md`](experiments/BLXCC001_RESULT.md) — prospectively frozen BL×CC-001 execution result, post-run audit, claim ceiling, and execution provenance.
 
 ## Research posture
@@ -267,6 +292,8 @@ freeze
 -> audit
 -> narrow result
 -> program-level compression
+-> reduction attempt
+-> formalization
 -> deliberate next-question opening
 ```
 
